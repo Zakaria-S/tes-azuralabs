@@ -26,6 +26,10 @@ copy .env.example .env
 ```bash
 composer install
 ```
+```bash
+php artisan key:generate
+```
+
 <p>setelah itu jalankan perintah di bawah ini dengan berurutan</p>
 
 ```bash
