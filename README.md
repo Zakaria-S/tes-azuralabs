@@ -13,21 +13,35 @@
 
 ```bash
 git clone https://github.com/Zakaria-S/tes-azuralabs.git
+```
+```bash
 cd tes-azuralabs
 ```
 lalu jalankan perintah di bawah ini<br>
 
 ```bash
 copy .env.example .env
+```
+
+```bash
 composer install
 ```
 <p>setelah itu jalankan perintah di bawah ini dengan berurutan</p>
 
 ```bash
 php artisan storage:link
+```
+
+```bash
 php artisan migrate
+```
+```bash
 php artisan db:seed --class=UserSeeder
+```
+```bash
 php artisan db:seed --class=CategorySeeder
+```
+```bash
 php artisan db:seed --class=BookSeeder
 ```
 Setelah itu jalankan projek ini dengan perintah:
